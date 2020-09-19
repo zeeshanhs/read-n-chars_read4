@@ -1,0 +1,12 @@
+language: python
+python:
+  - 3.7.2
+script:
+  - pytest
+
+notifications:
+  email:
+    recipients:
+      - blue_tie@hotmail.com
+    on_success: never
+    on_failure: always

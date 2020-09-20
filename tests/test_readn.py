@@ -6,6 +6,7 @@ def test_read10():
     instance = readers(x)
     
     # if you change READN() definition to accept 'self' then you can pass readn() without argument
-    assert instance.readn() == 20
+        # if test fails, print: "test_read10() expected 20" 
+    assert instance.readn() == 20, "test_read10() expected 20"
 
     # assert instance.readn(n) == 20
